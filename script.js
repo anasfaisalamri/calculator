@@ -88,6 +88,7 @@ const calculate = () => {
   switch (moduloOperator) {
     case "%":
       result = parseFloat(prevNumber) % parseFloat(currentNumber);
+      // result = parseFloat(prevNumber) / 100;
       break;
     default:
       break;
